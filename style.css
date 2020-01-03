@@ -1,5 +1,52 @@
 nav {}
 
+body {
+    margin: 0;
+    padding: 1vw;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    border: 0.4vw;
+    border-color: green;
+    border-style: groove;
+
+}
+
+
+
+
+/*Forside logo ting*/
+
+
+
+
+
+/*Forside logo ting*/
+
+
+
+h1 {
+    color: #958989;
+    text-transform: uppercase;
+}
+
+p {
+    color: #585858;
+    font-size: 1rem;
+    padding-top: 1vw;
+}
+
+#titel_1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    width: 72vw;
+}
+
 a:link {
     text-decoration: none;
     color: #000000;
@@ -10,16 +57,21 @@ a:visited {
     color: ##000000;
 }
 
-a:hover {
-    color: ##000000;
+
+#burgermenu a:hover {
+    color: #e21818;
+    transition: 0.4s;
 }
+
+
+
 
 a:active {
     color: ##000000;
 }
 
 .undermenu {
-    color: #a38d8d;
+    color: #958989;
 }
 
 #burgerknap {
@@ -40,8 +92,10 @@ a:active {
     position: fixed;
     display: flex;
     justify-content: flex-end;
+    text-align: end;
     flex-direction: column;
-
+    right: 0;
+    top: 7vw;
     font-size: 2vw;
 
 
@@ -49,15 +103,33 @@ a:active {
 }
 
 #burgermenu a {
-    padding: 2vw 3vw;
-    color: #797575;
+    padding: 3vw 3vw;
+    color: #a38d8d;
     text-transform: uppercase;
+    animation-duration: 1s;
 }
 
 
 .hidden {
-    /*  transform: translateX(-100);**/
     visibility: hidden;
+}
+
+.fade_away {
+    animation-name: hidden_kf;
+    animation-duration: 0.4s;
+
+}
+
+@keyframes hidden_kf {
+
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
 }
 
 
@@ -101,3 +173,49 @@ a:active {
     }
 
 }
+
+
+/*02_web start*/
+
+#splash_02_site {
+    /*    background-image: url(billeder/02_web/arthur_jonydi_splashbillede.jpg);*/
+    width: 74vw;
+    height: 42vw;
+
+    /*
+    left: 14vw;
+    top: 7vw;
+*/
+
+
+}
+
+#responsive_site_emb {
+    width: 74vw;
+    height: 47vw;
+
+    left: 14vw;
+    top: 7vw;
+}
+
+#skitser_02_web {
+    width: 74vw;
+    height: 100%;
+    display: flex;
+
+    /* transform: rotate(90deg);*/
+
+}
+
+#02_web_container {
+    display: flex;
+    flex-direction: row;
+    width: 74vw;
+}
+
+#txt_02 {
+    width: 74vw;
+}
+
+
+/*02_web ting ting slut*/

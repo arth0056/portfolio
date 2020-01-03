@@ -9,6 +9,7 @@ function sidenVises() {
 function clickMenu() {
     console.log("clickMenu");
     document.querySelector("#burgermenu").classList.toggle("hidden");
+    document.querySelector("#burgermenu").classList.toggle("fade_away");
 
     if (document.querySelector("#burgerknap").classList.contains("open")) {
         document.querySelector("#burgerknap").classList = "closed";
