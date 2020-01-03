@@ -1,0 +1,103 @@
+nav {}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: ##000000;
+}
+
+a:hover {
+    color: ##000000;
+}
+
+a:active {
+    color: ##000000;
+}
+
+.undermenu {
+    color: #a38d8d;
+}
+
+#burgerknap {
+    position: fixed;
+    display: inline-block;
+    height: 5vw;
+    width: 5vw;
+    background-image: url(billeder/burger.svg);
+    background-size: cover;
+    top: 2vw;
+    right: 2vw;
+    z-index: 1;
+
+}
+
+#burgermenu {
+
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    font-size: 2vw;
+
+
+
+}
+
+#burgermenu a {
+    padding: 2vw 3vw;
+    color: #797575;
+    text-transform: uppercase;
+}
+
+
+.hidden {
+    /*  transform: translateX(-100);**/
+    visibility: hidden;
+}
+
+
+.closed {
+    animation-name: close_kf;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+
+}
+
+@keyframes close_kf {
+    0% {
+        background-image: url(billeder/cross.svg);
+
+    }
+
+    100% {
+        background-image: url(billeder/burger.svg);
+    }
+}
+
+.open {
+    animation-name: open_kf;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    /*    background-image: url(burger.svg);*/
+}
+
+@keyframes open_kf {
+    /*
+    0% {
+
+        background-image: url(burger.svg);
+    }
+*/
+
+    100% {
+        background-image: url(billeder/cross.svg);
+    }
+
+}
