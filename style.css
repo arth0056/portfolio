@@ -3,20 +3,35 @@ nav {}
 body {
     margin: 0;
     padding: 1vw;
+    font-family: 'muli', sans-serif;
+    background-color: #e6e6e6;
+
 }
 
 img {
     width: 100%;
 }
 
-/*
+
+
+
+
 div {
+
+    /*
     border: 0.4vw;
     border-color: green;
     border-style: groove;
+*/
+
+    /*    width: 74vw;
+ */
+
 
 }
-*/
+
+
+
 
 
 
@@ -24,6 +39,38 @@ div {
 /*Forside logo ting*/
 
 
+#forside_bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/forside/forside_portfolio_droplet.svg);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+index.html {
+    overflow: hidden;
+}
+
+/*
+.grow {
+    animation-name: grow_kf;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}*/
+
+@keyframes grow_kf {
+    0% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(47)
+    }
+}
 
 
 
@@ -32,14 +79,17 @@ div {
 
 
 h1 {
-    color: #958989;
+    color: #5c5858;
     text-transform: uppercase;
 }
 
+h2 {
+    color: #5c5858;
+}
+
 p {
-    color: #585858;
-    font-size: 1rem;
-    padding-top: 1vw;
+    color: #5c5858;
+    font-size: 1.2em;
 }
 
 #titel_1 {
@@ -73,7 +123,7 @@ a:active {
 }
 
 .undermenu {
-    color: #958989;
+    color: #5c5858;
 }
 
 #burgerknap {
@@ -105,8 +155,8 @@ a:active {
 }
 
 #burgermenu a {
-    padding: 3vw 3vw;
-    color: #a38d8d;
+    padding: 2vw 3vw;
+    color: #5c5858;
     text-transform: uppercase;
     animation-duration: 1s;
 }
@@ -273,6 +323,60 @@ a:active {
 
 /*02_web ting ting slut*/
 
+/*03_ux start*/
+
+#solsikken_app {
+    height: 70vw;
+    width: 74vw;
+}
+
+#solsikken_app_design img {
+    height: 40vw;
+}
+
+#map_03_ux {
+    width: 74vw;
+
+}
+
+#titel_2_d {
+    padding-top: 1vw;
+}
+
+
+
+/*03_ux slut*/
+
+
+/*04_animation start*/
+
+
+#mit_spil_startscreen {
+    width: 74vw;
+    height: 40vw;
+
+}
+
+#txt_04 {
+    width: 74vw;
+}
+
+#mitspil_kode_container {
+    width: 74vw;
+    display: flex;
+    overflow: hidden;
+    background-size: cover;
+
+}
+
+#gruppespil_js1 {
+    width: 37vw;
+}
+
+
+
+/*04_animation slut*/
+
 
 
 @media only screen and (max-width:800px) {
@@ -284,3 +388,19 @@ a:active {
         flex-wrap: wrap;
 
     }
+
+
+
+    #mitspil_kode_container {
+        width: 74vw;
+        height: 100%;
+        display: block;
+    }
+
+    #gruppespil_js1 {
+        width: 74vw;
+    }
+
+
+
+}
