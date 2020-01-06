@@ -74,8 +74,6 @@ index.html {
 
 
 
-/*Forside logo ting*/
-
 
 
 h1 {
@@ -149,6 +147,7 @@ a:active {
     right: 0;
     top: 7vw;
     font-size: 2vw;
+    z-index: 3;
 
 
 
@@ -278,6 +277,44 @@ a:active {
 /*forside slut */
 
 
+/*ommmmmmm start*/
+#titel_3 {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    right: 43vw;
+
+}
+
+#om_mit_ansigt {
+    position: absolute;
+    background-image: url(billeder/om/selv.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+
+
+}
+
+#om_mig_txt {
+    position: absolute;
+    text-align: center;
+    top: 40vw;
+    right: 35vw;
+    width: 40vw;
+}
+
+#om_mig_txt p {
+    line-height: 3vw;
+}
+
+
+
+/*ommmmmmm slut*/
+
+
 /*02_web start*/
 
 #splash_02_site {
@@ -376,6 +413,25 @@ a:active {
 
 
 /*04_animation slut*/
+
+/*05_content start*/
+
+#redesign_cleo {
+    width: 74vw;
+    height: 30vw;
+}
+
+#content_wireframe_layout {
+    width: 74vw;
+}
+
+.content_img {}
+
+#styletile_cleo {
+    width: 74vw;
+}
+
+/*05_content slut*/
 
 
 
