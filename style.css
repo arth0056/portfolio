@@ -40,11 +40,11 @@ div {
 
 
 #forside_bg {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-image: url(billeder/forside/forside_portfolio_droplet.svg);
     position: absolute;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
 
@@ -104,7 +104,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: ##000000;
+    color: #000000;
 }
 
 
@@ -117,7 +117,7 @@ a:visited {
 
 
 a:active {
-    color: ##000000;
+    color: #000000;
 }
 
 .undermenu {
@@ -145,7 +145,7 @@ a:active {
     text-align: end;
     flex-direction: column;
     right: 0;
-    top: 7vw;
+    top: 4vw;
     font-size: 2vw;
     z-index: 3;
 
@@ -278,11 +278,17 @@ a:active {
 
 
 /*ommmmmmm start*/
+
+#waat {
+    display: flex;
+    justify-content: center;
+}
+
 #titel_3 {
     position: absolute;
     text-align: center;
     z-index: 1;
-    right: 43vw;
+
 
 }
 
@@ -301,13 +307,15 @@ a:active {
 #om_mig_txt {
     position: absolute;
     text-align: center;
-    top: 40vw;
-    right: 35vw;
+    top: 47vw;
     width: 40vw;
+    left: 30vw;
+
 }
 
 #om_mig_txt p {
-    line-height: 3vw;
+    line-height: 44px;
+
 }
 
 
@@ -347,11 +355,6 @@ a:active {
 
 }
 
-#02_web_container {
-    display: flex;
-    flex-direction: row;
-    width: 74vw;
-}
 
 #txt_02 {
     width: 74vw;
@@ -362,13 +365,24 @@ a:active {
 
 /*03_ux start*/
 
+#xd_prototype {
+    width: 74vw;
+    height: 40vw;
+    text-align: left;
+}
+
 #solsikken_app {
     height: 70vw;
     width: 74vw;
 }
 
+#solsikken_app_design {
+    width: 74vw;
+}
+
 #solsikken_app_design img {
     height: 40vw;
+
 }
 
 #map_03_ux {
@@ -455,6 +469,35 @@ a:active {
 
     #gruppespil_js1 {
         width: 74vw;
+    }
+
+    #waat #om_mit_ansigt {
+        top: 4vw;
+    }
+
+    #forside_bg {
+        left: 1vw;
+    }
+
+
+    #forside_bg {
+        transform: scale(2);
+        top: 40vw;
+    }
+
+}
+
+
+@media only screen and (min-width:800px) {
+
+    #waat #titel_3 {
+        right: 44vw;
+    }
+
+    #waat #om_mig_txt {
+        left: 24vw;
+        top: 44vw;
+
     }
 
 
