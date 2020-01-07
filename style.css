@@ -338,7 +338,7 @@ a:active {
 
 }
 
-#responsive_site_emb {
+.responsive_site_emb {
     width: 74vw;
     height: 47vw;
 
@@ -356,7 +356,7 @@ a:active {
 }
 
 
-#txt_02 {
+.txt_02 {
     width: 74vw;
 }
 
@@ -365,7 +365,7 @@ a:active {
 
 /*03_ux start*/
 
-#xd_prototype {
+.xd_prototype {
     width: 74vw;
     height: 40vw;
     text-align: left;
@@ -376,11 +376,11 @@ a:active {
     width: 74vw;
 }
 
-#solsikken_app_design {
+.solsikken_app_design {
     width: 74vw;
 }
 
-#solsikken_app_design img {
+.solsikken_app_design img {
     height: 40vw;
 
 }
@@ -402,17 +402,17 @@ a:active {
 /*04_animation start*/
 
 
-#mit_spil_startscreen {
+.mit_spil_startscreen {
     width: 74vw;
     height: 40vw;
 
 }
 
-#txt_04 {
+.txt_04 {
     width: 74vw;
 }
 
-#mitspil_kode_container {
+.mitspil_kode_container {
     width: 74vw;
     display: flex;
     overflow: hidden;
@@ -430,7 +430,7 @@ a:active {
 
 /*05_content start*/
 
-#redesign_cleo {
+.redesign_cleo {
     width: 74vw;
     height: 30vw;
 }
@@ -461,7 +461,7 @@ a:active {
 
 
 
-    #mitspil_kode_container {
+    .mitspil_kode_container {
         width: 74vw;
         height: 100%;
         display: block;
@@ -486,7 +486,7 @@ a:active {
     }
 
 
-    #xd_prototype {
+    .xd_prototype {
         height: 147vw;
     }
 
